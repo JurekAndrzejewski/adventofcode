@@ -28,4 +28,4 @@ od = collections.OrderedDict(sorted(beam_indices.items()))
 for x in od:
     print(f"{x}:{od[x]}")
 
-print(1+sum(list(od.values())))
+print(sum(list(od.values())))
